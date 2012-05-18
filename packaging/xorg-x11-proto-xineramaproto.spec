@@ -17,7 +17,7 @@ Description: %{summary}
 
 
 %prep
-%setup -q -n xineramaproto-%{version}
+%setup -q -n %{name}-%{version}
 
 %build
 %reconfigure --disable-shared 
