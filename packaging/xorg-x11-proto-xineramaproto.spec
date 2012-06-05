@@ -6,7 +6,7 @@ Release:    1
 Group:      Development/System
 License:    MIT
 URL:        http://www.x.org
-Source0:    http://xorg.freedesktop.org/releases/individual/proto/xineramaproto-%{version}.tar.gz
+Source0:    %{name}-%{version}.tar.gz
 Source1001: packaging/xorg-x11-proto-xineramaproto.manifest 
 Provides:   xineramaproto
 BuildRequires: pkgconfig(xorg-macros)
